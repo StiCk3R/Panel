@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <style>
+        /* Asigură că fontul Poppins este disponibil */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Stilizare globală pentru întreaga pagină */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(42, 41, 41);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aliniază la stânga */
+  justify-content: flex-start; /* Aliniază la sus */
+  padding: 20px; /* Adaugă spațiu în jurul conținutului */
+}
+
+/* Stil pentru containerul de date */
+.data {
+  max-width: 800px; /* Ajustează lățimea maximă după preferințe */
+  margin: 0 auto; /* Centrează containerul în orizontală */
+  padding: 20px; /* Adaugă spațiu în jurul conținutului */
+}
+
+/* Stil pentru titluri */
+h1, h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Stil pentru titlul principal */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Stil pentru subtitlu */
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Stil pentru paragrafe */
+p {
+  font-size: 16px;
+  color: rgb(212, 210, 210);
+  margin-bottom: 10px;
+}
+
+/* Stil pentru linkuri */
+a {
+  font-size: 16px;
+  color: rgb(11, 11, 237);
+  text-decoration: none;
+}
+
+/* Stil pentru linkurile care sunt trecute peste */
+a:hover {
+  text-decoration: underline;
+}
+    </style>
+    <% if (data) { %>
+        <div class="data">
+          <h1>Title: <%= data.title %></h1>
+          <h3>Subtitle: <%= data.subtitle %></h3>
+          <p>Paragraph: <%= data.paragraph %></p>
+          <a href="<%= data.link %>">Link: <%= data.link %></a>
+        </div>
+        <% } else { %>
+        <p>No data available.</p>
+        <% } %>
+      </div>
+  </body>
+</html>
