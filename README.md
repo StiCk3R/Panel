@@ -1,11 +1,7 @@
 # Panel
  # Web-Cl0nner
- __      __      ___.             _________ .__  _______                              
-/  \    /  \ ____\_ |__           \_   ___ \|  | \   _  \   ____   ____   ___________ 
-\   \/\/   // __ \| __ \   ______ /    \  \/|  | /  /_\  \ /    \ /    \_/ __ \_  __ \
- \        /\  ___/| \_\ \ /_____/ \     \___|  |_\  \_/   \   |  \   |  \  ___/|  | \/
-  \__/\  /  \___  >___  /          \______  /____/\_____  /___|  /___|  /\___  >__|   
-       \/       \/    \/                  \/            \/     \/     \/     \/       
+![image](https://github.com/user-attachments/assets/a33f9996-257d-4815-86e6-22a59c52a4b5)
+ 
 Salutare, acest proiect a fost implementat de catre studentul Stratulat Marius.
 Acest proiect este menit sa faca/creeze o pagina web bazata pe inputurile utilizatorului.
 -> Limbajele utilizate pentru acest proiect:
