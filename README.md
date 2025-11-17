@@ -25,7 +25,7 @@ dupa completarea acestor input-uri, apasam pe butonul principal, iar noi vom fi 
 creeaza de algoritm cu raspunsurile noastre.
 
 Pagina Creata:
-Oagina care se creeaza, sau mai bine spus tot ce este pe pagina creaza este facut pe baza unui template
+Pagina care se creeaza, sau mai bine spus tot ce este pe pagina creaza este facut pe baza unui template
 care mai apoi acest template se completeaza cu informatiile din baza de date.
 
 ============================================================================================================
